@@ -1,0 +1,268 @@
+
+/*******************************************************
+ * OVERRIDE MATERIALIZECSS
+ ********************/
+
+body{
+  font-family: "Source Code Pro", "monaco", "PT Mono", "Courier", monospace;
+  font-weight: 400;
+  font-size: 18px;
+  margin:0px;
+  /*background-color: #fff;
+  color: #fff;*/
+  background: rgba(118,188,92,1);
+  background: -moz-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(118,188,92,1)), color-stop(100%, rgba(68,203,233,1)));
+  background: -webkit-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+  background: linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76bc5c', endColorstr='#44cbe9', GradientType=1 );
+}
+
+
+body a:hover{
+  text-decoration: none;
+}
+
+.tabs{
+background-color:transparent;
+}
+
+.tabs .tab{
+margin-right:5px;
+margin-left:5px;
+}
+
+.tabs .tab .letters:hover{
+  text-shadow:2px 2px 2px solid;
+  border:2px solid black;
+  padding:5px;
+  color:#5FA945;
+  box-shadow:2px 2px 2px black;
+  border-radius:5px 5px 5px 5px;
+}
+
+.tabs .tab .active .letters{
+ color:black;
+}
+
+.tabs .tab  a {
+  color:black;
+  font-size: 24px;
+  font-weight:bold;
+  -webkit-transition:all 2s ease out;
+  -moz-transition:all 2s ease out;
+  -o-transition:all 2s ease out;
+  transition:all 2s ease out;
+}
+
+.divider {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn, .btn-large, .btn:hover, .btn-large:hover {
+  box-shadow: none;
+}
+nav{
+  background-color: black;
+}
+.nav-wrapper {
+  background-color:black;
+}
+
+.nav-wrapper a{
+  font-weight:bold;
+  font-size:40px;
+}
+
+#letter_D, #letter_n{
+color:#D7323C;
+}
+
+#letter_e{
+color:#1DC0E4;
+}
+
+#letter_v,#left_char,#right_char{
+color:#5FA945;
+}
+
+#letter_C{
+color:#FDC807;
+}
+
+#letter_o{
+color:#EB5228;
+}
+
+.container ul li a{
+  background-color:transparent;
+}
+
+.container ul li a:hover {
+  background-color:white;
+  color:black
+}
+
+.uk-grid ul li a{
+  font-size:20px;
+  color:black;
+}
+
+.uk-grid ul .uk-active a {
+  font-size: 20px;
+  background-color:#000;
+  border-right:5px solid #D7323C;
+  color:white;
+  font-weight: bold;
+}
+
+.uk-card{
+  border: 3px solid black;
+}
+.uk-card .uk-card-body .btn{
+  background-color:white;
+  color:black;
+  border:2px solid black;
+  font-weight:normal;
+}
+
+.uk-card .uk-card-body .btn:hover, .uk-modal-container .btn-large:hover{
+  box-shadow:3px 3px 3px black;
+  text-shadow:1px 1px 1px black;
+}
+
+.uk-modal-container .btn-large{
+  background-color: transparent;
+  color:black;
+  border:2px solid black;
+}
+
+.uk-modal-container h4, .uk-card-body .meetup-title, .uk-modal-container h5{
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*.section .input-field input{
+ border:3px solid black;
+ border-radius:10px  10px  10px  10px;
+ padding:5px;
+ margin:5px;
+}
+*/
+/*******************************************************
+ * CUSTOM
+ ********************/
+.wrapper {
+  padding-top: 60px;
+}
+
+.half-wrapper {
+  padding-top: 30px;
+}
+
+.events {
+  margin-top: 60px;
+}
+
+.events ul, .locations ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.locations ul {
+  text-align: center;
+}
+
+.events ul li {
+  width: 330px;
+}
+
+.events ul li, .locations ul li
+{
+  margin-right: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.events ul li a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.meetup-title {
+  font-weight: bold;
+}
+
+.meetup-location, .meetup-date, .meetup-time {
+  font-size:12px;
+}
+
+.info {
+  color: #EB5228;
+}
+
+.notes {
+  font-size: 10px;
+  color: black;
+  padding-top: -100px;
+}
+
+.container .section form{
+  /*background: rgba(227,114,122,1);
+  background: -moz-linear-gradient(45deg, rgba(227,114,122,1) 0%, rgba(243,134,104,1) 29%, rgba(253,215,78,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(227,114,122,1)), color-stop(29%, rgba(243,134,104,1)), color-stop(100%, rgba(253,215,78,1)));
+  background: -webkit-linear-gradient(45deg, rgba(227,114,122,1) 0%, rgba(243,134,104,1) 29%, rgba(253,215,78,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(227,114,122,1) 0%, rgba(243,134,104,1) 29%, rgba(253,215,78,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(227,114,122,1) 0%, rgba(243,134,104,1) 29%, rgba(253,215,78,1) 100%);
+  background: linear-gradient(45deg, rgba(227,114,122,1) 0%, rgba(243,134,104,1) 29%, rgba(253,215,78,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3727a', endColorstr='#fdd74e', GradientType=1 );*/
+  background:white;
+}
+
+.uk-modal-container{
+  color:black;
+}
+
+.uk-modal-container .locations ul li a{
+  color:#1DC0E4;
+}
+
+.uk-modal-container .locations ul li a:hover{
+  color:black;
+}
+
+.row ul li a{
+  text-shadow:1px 1px 1px black;
+}
+
+.row ul li a:hover{
+  background-color:transparent;
+}
+
+.section label, .section input{
+ color:black;
+}
+
+.section form {
+box-shadow:3px 3px 10px black;
+border-radius:20px 20px 20px 20px;
+border:2px solid black;
+}
+
+.section form .btn-large{
+  background-color:transparent;
+  color:black;
+  border:2px solid black;
+}
+
+.section form .btn-large:hover{
+  box-shadow:3px 3px 3px black;
+  text-shadow:1px 1px 1px black;
+}
+
+
